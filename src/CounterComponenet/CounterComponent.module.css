@@ -1,0 +1,68 @@
+.container {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: hwb(227 60% 0%);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px;
+}
+
+.display{
+    margin-top: 2px;
+    background-color: hwb(227 60% 0%);
+    justify-content: left;
+    font-size: 3rem;
+    display: flex;
+    max-width: 500px;
+    min-width: 20px;
+    flex-wrap: wrap;
+}
+
+.number{
+    display: block;
+    font-size: 10rem;
+    margin-left: 38%;
+}
+
+.resetButton{
+    font-size: 1.5rem;
+    background-color: hsl(334, 79%, 49%);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.resetButton:hover{
+    background-color: hsl(16, 100%, 66%);
+}
+
+.decreaseButton{
+    font-size: 1.5rem;
+    background-color:teal;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.increaseButton{
+    font-size: 1.5rem;
+    background-color:hsl(225, 94%, 51%);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    width: 150px;
+    height: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
